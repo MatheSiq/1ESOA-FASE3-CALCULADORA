@@ -1,4 +1,0 @@
-console.log("Meu primeiro programa: variáveis");
-
-const idade = 20;
-console.log(idade)

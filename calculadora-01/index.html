@@ -4,19 +4,26 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora de Dois Números</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-  <div class="calculator">
-    <input type="number" id="num1">
-    <input type="number" id="num2">
-    <button onclick="add()">Somar</button>
-    <button onclick="subtract()">Subtrair</button>
-    <button onclick="multiply()">Multiplicar</button>
-    <button onclick="divide()">Dividir</button>
-    <p id="result"></p>
-  </div>
 
-  <script src="script.js"></script>
+  <div class="calculadora">
+    <div class="entradas">
+      <input type="number" id="num1">
+      <input type="number" id="num2">
+    </div>
+    
+    <div class="botoes">
+      <button onclick="soma()">Somar</button>
+      <button onclick="subtracao()">Subtrair</button>
+      <button onclick="multiplicacao()">Multiplicar</button>
+      <button onclick="divisao()">Dividir</button>
+    </div>
+
+    <p id="resultado"></p>
+    
+  </div>
+<script src="js/index.js"></script>
 </body>
 </html>

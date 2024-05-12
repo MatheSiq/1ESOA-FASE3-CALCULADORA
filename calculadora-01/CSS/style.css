@@ -1,0 +1,17 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.calculadora {
+  text-align: center;
+}
+
+input {
+  max-width: 100px;
+  margin-top: 200px;
+}
+
+button {
+  margin: 5px;
+  cursor: pointer;
+}
