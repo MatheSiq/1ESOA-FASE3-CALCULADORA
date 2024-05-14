@@ -1,4 +1,6 @@
 function soma() {
+    var operacao = "+";
+    document.getElementById('operacao').innerHTML = operacao;
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
     var resultado = num1 + num2;
@@ -6,6 +8,8 @@ function soma() {
   }
   
   function subtracao() {
+    var operacao = "-";
+    document.getElementById('operacao').innerHTML = operacao;
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
     var resultado = num1 - num2;
@@ -13,6 +17,8 @@ function soma() {
   }
   
   function multiplicacao() {
+    var operacao = "*";
+    document.getElementById('operacao').innerHTML = operacao;
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
     var resultado = num1 * num2;
@@ -20,6 +26,8 @@ function soma() {
   }
   
   function divisao() {
+    var operacao = "/";
+    document.getElementById('operacao').innerHTML = operacao;
     var num1 = parseFloat(document.getElementById('num1').value);
     var num2 = parseFloat(document.getElementById('num2').value);
     if (num2 === 0) {

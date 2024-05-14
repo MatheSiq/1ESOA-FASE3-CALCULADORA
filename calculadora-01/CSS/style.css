@@ -1,9 +1,31 @@
 body {
   font-family: Arial, sans-serif;
+  background-color: #333333;
+}
+
+#resultado {
+  background-color: #fff;
 }
 
 .calculadora {
   text-align: center;
+  font-size: 50px;
+}
+
+.entradas {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.entradas input{
+  margin: 10px;
+  font-size: 50px;
+}
+
+.entradas p{
+  font-size: 50px;
 }
 
 input {
@@ -12,6 +34,9 @@ input {
 }
 
 button {
+  width: 80px;
+  height: 80px;
   margin: 5px;
   cursor: pointer;
+  font-size: 50px;
 }
